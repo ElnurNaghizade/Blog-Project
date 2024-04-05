@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>Creating Blog</title>
+</head>
+<body>
+    <%- include("partials/header.ejs") %>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Do you want to create new blog?</h1>
+        <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">pls input your name and email adress.And then you can write all things what do you want</p>
+          <hr>
+          
+          <br>
+          <div class="bd-example m-0 border-0">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInputDisabled" placeholder="Your Name" >
+                <label for="floatingInputDisabled">Your Name</label>
+              </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+              <label for="floatingInputDisabled">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" ></textarea>
+              <label for="floatingTextareaDisabled">Comments</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="You can write here,what do you want" id="floatingTextarea2Disabled" style="height: 100px" ></textarea>
+              <label for="floatingTextarea2Disabled">Write the Blog</label>
+            </div>
+            <form class="row gy-2 gx-3 align-items-center">
+ 
+  
+      
+    </div>
+  </div>
+  <div class="col-auto">
+    <button href="/submit" type="submit" class="btn btn-primary">Submit</button>
+    <hr>
+  </div>
+</form>
+            
+            </div>
+    </div>
+
+
+    
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>
